@@ -1,9 +1,351 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>BGG Page</title>
+        <meta charset = "utf-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+
+        <title> BGG Portfolio</title>
+        <link rel = "stylesheet" type = "text/css" href = "css/style.css">
+
+        <link rel="stylesheet"
+        href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@900&display=swap" rel="stylesheet">
     </head>
+
     <body>
-        <h1>Welcome to my Page</h1>
+        <!--------header--------->
+        <header>
+            <a href = "#" class = "logo"> B<span>G</span>G</a>
+            <div class = "bx bx-menu" id = "menu-icon"></div>
+
+            <ul class = "navbar">
+                <li><a href = "#home">Home</a></li>
+                <li><a href = "#about">About</a></li>
+                <li><a href = "#services">Services</a></li>
+                <li><a href = "#resume">Resume</a></li>
+                <li><a href = "#certificate">Certifications</a></li>
+                <li><a href = "#contact">Contact</a></li>
+            </ul>
+        </header>
+        
+        <!-------start home------->
+        <section class = "home" id = "home">
+            <div class = "home-text">
+                <h4>Hello, I am</h4>
+                <h1>Benedick G. Gonzales</h1>
+                <h3>I am Passionate to be a <span>Developer.</span></h3>
+                <p>My dream is to be an IT developer, I am
+                   a AWS Solution Architect - Associate, looking for a background in cloud
+                   engineer and devops. I can create a modern website and web services application
+                   or desktop application.</p>
+                <a href = "#" class = "btn">Hire Me</a>
+                </p>
+            </div>
+            <div>
+                <img src = "img/home.png">
+            </div>
+        </section>
+        
+        <!----start about-------------------->
+        <section class = "about" id = "about">
+            <div class = "about-img">
+                <div class ="slides">
+                    <input type = "radio" name=" radio-btn" id = "radio1">
+                    <input type = "radio" name=" radio-btn" id = "radio2">
+
+                <div class = "slide first">
+                    <img src = "img/about1.png" alt = "">
+                </div>
+                <div class = "slide">
+                    <img src = "img/about2.png" alt = "">
+                </div>
+
+                <div class = "navigation-auto">
+                    <div class = "auto-btn1"></div>
+                    <div class = "auto-btn2"></div>
+                </div>
+
+                <div class = "navigation-manual">
+                    <label for = "radio1" class = "manual-btn"></label>
+                    <label for = "radio2" class = "manual-btn"></label>
+                </div>
+
+                </div>
+
+            </div>
+
+            <div class = "about-text">
+                <h3> ABOUT ME</h3>
+                <h2> I graduated in Polytechnic University of the Philippines with a Bachelor of Science
+                    in Computer Science specialized in Information System Development.
+                </h2>
+                <p> I have an experience in Accenture with 2 years and 10 months as a Data Analyst in Business
+                    Service Processing. Aside from that I can create website and other application. I have a
+                    certificate in AWS Cloud Practioner and AWS Solution Architect - Associate. Being graduated in 
+                    AWS Academy with a partnership with Asia Pacific University. An expert in using excel, can do automation.
+                    Being a 3x Microsoft Azure Fundamentals Certified, Azure Data Fundamentals, Azure Fundamentals and
+                    Azure Artificial Intelligence Fundamentals. A White Belt Certified Six Sigma. Also I'm professional Civil
+                    Service Passer in the Philippines.
+                    I like to learn new things and curious in everything.
+                    I need new challenges and new experience.
+                </p>
+                <div class = "count">
+                    <a href = "#"><span>3X</span>Azure Certified</a>
+                    <a href = "#"><span>2X</span>AWS Certified</a>
+                </div>
+
+                <div class = "main-btn">
+                    <a href = "#" class = "btn">Contact</a>
+                    <a href = "#" class = "btn"> Portfolio</a>
+                </div>
+            </div>
+        </section>
+
+        <!---------------start services-->
+        <section class = "services" id = "services">
+                <div class = "center">
+                    <h3> WHAT I DO?</h3>
+                </div>
+                
+                <div class = "service-content">
+                    <div class = "row">
+                        <i class='bx bx-cast'></i>
+                        <h3>Web Development</h3>
+                        <p>I know how to use HTML 5, CSS 3, Javascript, PHP, Laravel, Django and Flask.</p>
+                    </div>
+
+                    <div class = "row">
+                        <i class='bx bx-layer'></i>
+                        <h3>Databases</h3>
+                        <p>I know how to use MS Access, MS SQL and My SQL. I know ETL, ELT, DML, DDL and DCL.</p>
+                    </div>
+
+                    <div class = "row">
+                        <i class='bx bx-cloud'></i>
+                        <h3>Cloud</h3>
+                        <p>I know how to use AWS and Microsoft Azure.</p>
+                    </div>
+
+                    <div class = "row">
+                        <i class='bx bx-palette'></i>
+                        <h3>Design</h3>
+                        <p>I know how to use Photoshop and Figma for Design.</p>
+                    </div>
+
+                    <div class = "row">
+                        <i class='bx bx-desktop'></i>
+                        <h3>Desktop Application</h3>
+                        <p>I know how to use Java, Cobol and C.</p>
+                    </div>
+
+                    <div class = "row">
+                        <i class='bx bx-camera'></i>
+                        <h3>Photography</h3>
+                        <p>I know how to use Adobe Photoshop and Adobe Premiere.</p>
+                    </div>
+
+                    <div class = "row">
+                        <i class='bx bx-bot'></i>
+                        <h3>Automation</h3>
+                        <p>I know how to use python and vba for the automation.</p>
+                    </div>
+
+                    <div class = "row">
+                        <i class='bx bx-notepad'></i>
+                        <h3>Excel</h3>
+                        <p>I know how to use excel in using chart, graph, pivot, macro, formula and advance excel skill.</p>
+                    </div>
+
+                    <div class = "row">
+                        <i class='bx bx-line-chart'></i>
+                        <h3>Analytics</h3>
+                        <p>I know how to use Python and Anaconda for the analytics and statistics.</p>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-------contacts------------>
+            <section class = "cta" id = "cta">
+                <h4>Have Any Project In Your Mind?</h4>
+                <div>
+                    <img src = "img/cta1.png">
+                    <img src = "img/cta2.png">
+                    <img src = "img/cta3.png">
+                </div>
+                <h2> Don't Hesitate to Connect with Me!</h2>
+                <a class = "social-icon" href ="https://www.linkedin.com/in/benedick-g-9b974b213/" target = "_blank">
+                    <ion-icon name = "logo-linkedin"></ion-icon>
+                </a>
+            </section>
+
+            <!--------start resume------->
+            <secion class = "resume" id = "resume">
+                <div class = "center">
+                    <h3>Education & Experience</h3>
+                </div>
+                <div class = "resume-content">
+                    <div class = "box">
+                        <h6> 2005 - 2011 </h6>
+                        <h4> Elementary</h4>
+                        <p> Grade one to Grade six.
+                        </p>
+                        <h5> Burgos Elementary School</h5>
+                        </div>
+
+                        <div class = "box">
+                            <h6> 2011 - 2015</h6>
+                            <h4> High School</h4>
+                            <p> First year high school to fourth year high school.
+                            </p>
+                            <h5> Burgos National High School</h5>
+                            </div>
+
+                        <div class = "box">
+                        <h6> 2015 - 2019</h6>
+                        <h4> College</h4>
+                        <p> Bachelor of Science in Computer Science specialized in Information System Development.
+                        </p>
+                        <h5> Polytechnic University of the Philippines</h5>
+                        </div>
+
+                        <div class = "box">
+                            <h6> March 2018 - May 2018</h6>
+                            <h4> Software Developer</h4>
+                            <p> On the Job Training create a Tenant Monitoring System.
+                            </p>
+                            <h5> RMR Group of Companies</h5>
+                        </div>
+
+                        <div class = "box">
+                            <h6> June 2018 - May 2019</h6>
+                            <h4> Thesis</h4>
+                            <p> A Translator of Baybayin writings.
+                            </p>
+                            <h5> Polytechinic University of the Philippines</h5>
+                        </div>   
+                        
+                        <div class = "box">
+                            <h6> August 2019 - June 2022</h6>
+                            <h4> Data Analyst</h4>
+                            <p> An entry level Data Analyst focus in creating of documents and excel.
+                            </p>
+                            <h5> Accenture</h5>
+                        </div>  
+                    </div>
+            </secion>        
+            
+            <secion class = "certificate" id = "certificate">
+                <div class = "center">
+                    <h3>Certifications</h3>
+                </div>
+                <div class = "certificate-content">
+                        <div class = "box">
+                            <h6> 2019</h6>
+                            <h4> Civil Service Commission - Professional Passer</h4>
+                            <img src = "img/cert1.png">
+                            </div>
+
+                        <div class = "box">
+                        <h6> 2021</h6>
+                        <h4> AWS Academy - Cloud Foundations</h4>
+                        <img src = "img/cert2.png">
+                        </div>
+
+                        <div class = "box">
+                            <h6> 2021</h6>
+                            <h4> AWS Academy - Cloud Architecting</h4>
+                            <img src = "img/cert3.png">
+                        </div>
+
+                        <div class = "box">
+                            <h6> 2022</h6>
+                            <h4> Microsoft Certified - Azure Fundamentals</h4>
+                            <img src = "img/cert4.png">
+                        </div>   
+                        
+                        <div class = "box">
+                            <h6> 2022</h6>
+                            <h4> Microsoft Certified - Azure Data Fundamentals</h4>
+                            <img src = "img/cert5.png">
+                        </div>  
+
+                        <div class = "box">
+                            <h6> 2022</h6>
+                            <h4> Microsoft Certified - Azure AI Fundamentals</h4>
+                            <img src = "img/cert6.png">
+                        </div> 
+
+                        <div class = "box">
+                            <h6> 2022</h6>
+                            <h4> AWS Certified - Cloud Practitioner</h4>
+                            <img src = "img/cert7.png">
+                        </div> 
+
+                        <div class = "box">
+                            <h6> 2022</h6>
+                            <h4> AWS Certified - Solutions Architect - Associate</h4>
+                            <img src = "img/cert8.png">
+                        </div> 
+                    </div>
+            </secion>  
+
+            <!------start contact-->
+            <secion class = "contact" id = "contact">
+                <div class = "center">
+                    <h3>Contact Me</h3>
+                </div>
+                
+                <div class = "contact-form">
+                    <form onsubmit = "sendEmail(); reset(); return false;">
+                        <input type = "" id = "name" placeholder = "Your Name" required>
+                        <input type = "email" name = "" id = "email" placeholder = "Email Address" required>
+                        <textarea name = "" id = "body" cols = "30" rows = "10" placeholder = "Project Description" required></textarea>
+                        <input type = "submit" name = "" value = "Send" class = "send-btn"> 
+                    </form>
+                </div>
+            </secion>
+            
+            <!-------start copyright------>
+            <div class= "copyright">
+                <p>Copyright © 2022 BGG Portfolio, All rights Reserved ℗®™.</p>
+            </div>
+        <!--------Link to js--------->
+        <script type = "text/javascript" src = "js/script.js"></script>
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+        <script>
+            function sendEmail(){
+                Email.send({
+                    Host : "smtp.gmail.com",
+                    Username: "username",
+                    Password: "password",
+                    To: 'gonzalesbenedick@gmail.com',
+                    From: document.getElementById("email").value,
+                    Subject: "New Contact  Form Inquiry",
+                    Body: "Name: " + document.getElementById("name").value +
+                    "<br> Email: " + document.getElementById("email").value +
+                    "<br> Message: " + document.getElementById("body").value 
+                }
+                    ).then(
+                    message => alert("Successfully Send!!")
+                );
+            }
+        </script>
+
+        <script type = "text/javascript">
+            var counter = 1;
+            setInterval(function(){
+                document.getElementById('radio' + counter).checked = true;
+                counter++;
+                if(counter > 2){
+                    counter = 1;
+                }
+            }, 10000);
+        </script>
     </body>
 </html>
