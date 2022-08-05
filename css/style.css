@@ -527,7 +527,6 @@ form .send-btn:hover{
         grid-template-columns: 1fr;
         grid-gap: 2rem;
         text-align: center;
-        height: 100vh;
         margin-top: 80px;
     }
     .home-text p{
