@@ -528,6 +528,7 @@ form .send-btn:hover{
         grid-gap: 2rem;
         text-align: center;
         height: 100vh;
+        margin-top: 80px;
     }
     .home-text p{
         max-width: 100%;
@@ -567,46 +568,34 @@ form .send-btn:hover{
     }
 }
 
-@media (max-width: 500px){
+@media (max-width: 280px){
     .home{
         grid-template-columns: 1fr;
         grid-gap: 2rem;
         text-align: center;
         height: 100vh;
+        margin-top: 80px;
     }
     .home-text p{
         max-width: 100%;
     }
-    .home-img img{
-        max-width: 100%;
-        width: 490px;
-        height: auto;
-    }
-    .about{
-        grid-template-columns: 1fr;
-        text-align: center;
-        height: 200vh;
-        margin-top: 300px;
-    }
+
     .about-text p{
-        max-width: 100%
+        max-width: 100%;
     }
     .about-text h3{
-        max-width: 100%
+        max-width: 100%;
     }
 
     .about-text h2{
-        max-width: 100%
+        max-width: 100%;
     }
 
     .about-text .count{
-        max-width: 100%
-    }
-    .about-img{
-        order: 2;
+        max-width: 100%;
     }
 
-    .about-img .img{
+    .home-img img{
         max-width: 100%;
         width: 490px;
         height: auto;
