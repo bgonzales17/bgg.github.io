@@ -137,12 +137,12 @@ section{
 }
 .about-img img{
     max-width: 100%;
-    width: 580px;
+    width: 600px;
     height: auto;
 } 
 
 .about-img{
-    width: 580px;
+    width: 600px;
     height: auto;
     border-radius:10px;
     overflow:hidden;
@@ -163,13 +163,13 @@ section{
 }
 
 .about .slide{
-    width: 580px;
+    width: 600px;
     height: auto;
 }
 
 .about .navigation-manual{
     position: hidden;
-    width: 580px;
+    width: 600px;
     margin-top: -40px;
     display: flex;
     justify-content: center;
@@ -201,7 +201,7 @@ section{
 
 .navigation-auto{
     display: flex;
-    width: 580px;
+    width: 600px;
     justify-content: center;
 }
 
@@ -315,6 +315,12 @@ section{
     text-align: center;
 }
 
+.cta img{
+    max-width: 100%;
+    width: 100px;
+    height: auto;
+}
+
 .cta h4{
     color: var(--text-color);
     font-size: 1.6rem;
@@ -366,8 +372,9 @@ section{
 
 .certificate-content img{
     max-width: 100%;
-    width: 580px;
+    width: 200px;
     height: auto;
+    text-align: center;
 }
 
 .box{
@@ -525,30 +532,42 @@ form .send-btn:hover{
 @media (max-width: 795px){
     body{
         align-content: center;
+        width: 630px;
     }
     .home{
         grid-template-columns: 1fr;
         grid-gap: 2rem;
-        text-align: center;
         margin-top: 80px;
     }
     .home-text p{
         max-width: 100%;
     }
+    /* .home-text h1{
+        max-width: 100%;
+    }
+
+    .home-text h3{
+        max-width: 100%;
+    }
+
+    .home-text h4{
+        max-width: 100%;
+    } */
+
     .home-img img{
         max-width: 100%;
-        width: 490px;
+        width: 200px;
         height: auto;
     }
     .about{
         grid-template-columns: 1fr;
-        text-align: center;
         height: 200vh;
-        margin-top: 890px;
+        margin-top: 600px;
     }
     .about-text p{
         max-width: 100%
     }
+    /*
     .about-text h3{
         max-width: 100%
     }
@@ -559,7 +578,7 @@ form .send-btn:hover{
 
     .about-text .count{
         max-width: 100%
-    }
+    } */
     .about-img{
         order: 2;
     }
@@ -569,4 +588,16 @@ form .send-btn:hover{
         width: 490px;
         height: auto;
     }
+
+    .cta img {
+        max-width: 100%;
+        width: 200px;
+        height: auto;
+    }
+    .certificate-content img{
+        max-width: 100%;
+        width: 200px;
+        height: auto;
+    }
 }
+
