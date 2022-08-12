@@ -538,6 +538,7 @@ form .send-btn:hover{
         grid-template-columns: 1fr;
         grid-gap: 2rem;
         margin-top: 80px;
+        text-align: center;
     }
     .home-text p{
         max-width: 100%;
@@ -563,22 +564,25 @@ form .send-btn:hover{
         grid-template-columns: 1fr;
         height: 200vh;
         margin-top: 600px;
+        text-align: center;
     }
     .about-text p{
-        max-width: 100%
+        max-width: 100%;
     }
-    /*
+    
     .about-text h3{
-        max-width: 100%
+        max-width: 100%;
+        text-align: center;
     }
-
+    
     .about-text h2{
-        max-width: 100%
+        max-width: 100%;
     }
 
     .about-text .count{
-        max-width: 100%
-    } */
+        max-width: 100%;
+    }
+
     .about-img{
         order: 2;
     }
